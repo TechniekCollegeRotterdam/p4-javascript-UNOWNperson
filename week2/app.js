@@ -5,6 +5,7 @@ let p = document.getElementById("output");
 let nameChange = document.getElementById("nameChange");
 let countryChange = document.getElementById("countryChange");
 
+
 nameChange.addEventListener("change", function(){
     name = event.target.value;
     changeInput();
@@ -15,10 +16,10 @@ countryChange.addEventListener("change", function(){
    changeInput();
 })
 
-changeInput.addEventListener("change", function(){
+const changeInput = function(){
     const text = `je heet ${name} en je komt uit ${country}`;
     p.textContent = text;
-})
+}
 
 //aanmaken functie
 // const nameChanged = function(event) {
