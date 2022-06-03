@@ -20,33 +20,26 @@ window.addEventListener("keydown", function(e) {
   if(e.key == "ArrowRight"){ 
    px = px + 50;
    bird.style.left = px + "px";
-   //bird.img.src="img/b-right.svg";
-   //bird.display_image('img/b-right.svg');
-   //bird.img.load = "b-right.svg";
+   bird.src="img/b-right.svg";
+   
   }
   
   if(e.key == "ArrowLeft"){ 
     px = px - 50;
     bird.style.left = px + "px";
-    //bird.img.src="img/b-left.svg";
-    //bird.display_image('img/b-left.svg');
-    //bird.img.load = "b-left.svg";
+    bird.src="img/b-left.svg";
    }
 
    if(e.key == "ArrowUp"){ 
     px = px + 50;
     bird.style.bottom = px + "px";
-    //bird.img.src="img/b-up.svg";
-    //bird.display_image('img/b-up.svg');
-    //bird.img.load = "b-up.svg";
+    bird.src="img/b-up.svg";
    }
 
    if(e.key == "ArrowDown"){ 
     px = px - 50;
     bird.style.bottom = px + "px";
-    //bird.img.src="img/b-down.svg";
-    //bird.display_image('img/b-down.svg');
-    //bird.img.load = "b-down.svg";
+    bird.src="img/b-down.svg";
    }
 
 
